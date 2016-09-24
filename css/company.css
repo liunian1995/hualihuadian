@@ -1,0 +1,46 @@
+
+#content{width:82%;margin-left:10%;float:left;}
+#content .one{overflow:hidden;width:100%;}
+#content .one h1{padding-top:3%;padding-bottom:5%;}
+#content .one span.intro{display:block;text-indent:2rem;padding-bottom:5%;}
+#content ul{margin-bottom:5%;}
+#content .one li{border-bottom:1px dashed #ccc;width:50%;height:48px;line-height:48px;}
+#content .one li:nth-child(odd){float:left;clear:left;}
+#content .one li:nth-child(even){float:right;}
+#content .one li span:nth-child(1){padding-right:15%;}
+#content .one li a{text-decoration:none;}
+#content h2{padding-top:5%;padding-bottom:5%;}
+
+#content .catalog{width:100%;height:150px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;overflow:hidden;margin-top:5%;color:#000;}
+#content .catalog span{float:left;height:100%;width:10%;line-height:150px;text-align:center;border-right:1px solid #ccc;background-color:#FBFBFB;}
+#content .catalog ol{height:100%;width:28%;padding-top:4%;float:left;padding-left:10%;box-sizing:border-box;border-right:1px solid #F5F5F5;}
+#content .catalog ol li{list-style-type:decimal;}
+#content .catalog ol li a{text-decoration:none;color:#0037F0;}
+#content .catalog ul{float:left;height:100%;width:30%;padding-top:4%;padding-left:8%;box-sizing:border-box;border-left:1px solid #F5F5F5;}
+#content .catalog ul li{list-style-type:disc;font-size:0.8rem;}
+
+#content .brief span{display:block;text-indent:2rem;}
+
+#content .location span{display:block;text-indent:2rem;}
+
+#content .pro ul{overflow:hidden;}
+#content .pro li{width:50%;box-sizing:border-box;}
+#content .pro li:nth-child(1),#content .pro li:nth-child(2){margin-bottom:8%;}
+#content .pro li:nth-child(odd){float:left;clear:left;padding-left:5%;}
+#content .pro li:nth-child(even){float:right;padding-right:5%;}
+#content .pro span{display:block;text-indent:2rem;}
+
+#content .four{padding-bottom:8%;}
+
+#menu{float:right;width:15%;overflow:hidden;}
+#menu ul{padding-left:20px;}
+#menu ul li{list-style:disc;margin-top:40%;position:relative;color:#ccc;}
+#menu ul li:after{content:"";position:absolute;left:-16px;top:100%;border:3px solid #ccc;width:0;height:50%;border-radius:5px;}
+
+#footer{clear:both;margin-top:7.3%;}
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#content{font-size:0.9rem;}
+	#content .pro li{width:100%;margin:0 auto;}
+	#content .pro li:nth-child(4){margin-top:8%;}
+}

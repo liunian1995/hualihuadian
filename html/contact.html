@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关于我们</title>
+	<link rel="stylesheet" href="../css/contact.css">
+	<link rel="stylesheet" href="../css/same_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=68c92db1b95e9f508da8670282763e32"></script>
+	<script src="../js/map.js"></script>	
+	<script src="../js/same_js.js" type="text/javascript" charset="utf-8"></script>
+<body>
+	<div id="container">
+		<div id="header">
+			<a href="index.html">
+				<img src="../images/logo.png" alt="">
+			</a>
+			<div class="cart">
+				<a href="#"><i class="fa fa-shopping-cart"></i></a>
+				<span>|</span>
+				<a href="contact.html">登陆</a>
+			</div>
+			<form>
+				<input type="text" placeholder="请输入商品的名称" id="text">
+				<input type="button" value="搜索" class="button">
+			</form>
+		</div>
+		<div id="nav">
+			<span><i class="fa fa-bars"></i></span>
+			<ul>
+				<li><a href="../index.html">首&#12288;&#12288;页</a></li>
+				<li><a href="company.html">公司简介</a></li>
+				<li><a href="flowers.html">帮我选花</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li class="active"><a href="contact.html">联系我们</a></li>
+			</ul>
+		</div>
+		<div id="better">
+			<h2>我们会做的更好</h2>
+			<span>花里工作室感谢您对我们的支持，我们坚信在花里工作室会为您的生活带来花的美丽和甜蜜。<br>如果有您的建议或意见，我们会更加完善！感谢有您！</span>
+		</div>
+		<div id="tip">
+			<span>花里花店在中国拥有多家连锁店，享有超高人气，</span>
+			<span>您可以到您所在地的花里花店进行咨询以及告诉我们您的意见或建议</span>
+		</div>
+		
+		<div id="map"></div>
+		<span class="map">花里花店分布地图</span>
+		<div id="form">
+			<h3>已注册用户登陆</h3>
+			<form action="" id="register">
+				<span>用户登陆</span>
+				<ul>
+					<li>
+						<label for="name">姓名：</label>
+						<input type="text"name="name" required />
+					</li>
+					<li>
+						<label for="psd">密码：</label>
+						<input type="password" name="psd" required />
+					</li>
+					<button type="submit" id="denglu">登陆</button>
+					<input type="checkbox" name="rememberPsd" id="checkbox"/>记住密码？
+					<a href="#">忘记密码？</a>
+				</ul>
+			</form>
+			<h3>未注册创建用户</h3>
+			<form action="" id="login">
+				<span>用户注册</span>
+				<ul>
+					<li>
+						<label for="name">姓名：</label>
+						<input type="text" id="name" name="name" required />
+					</li>
+					<li>
+						<label for="psd">密码：</label>
+						<input type="password" id="psd" placeholder="请输入6位以上的密码" name="name" required />
+					</li>
+					<li>
+						<label for="psd2">确认密码：</label>
+						<input type="password" id="psd2" placeholder="请与密码一致" name="name" required />
+					</li>
+					<li>
+						<label for="tel">联系方式：</label>
+						<input type="text" id="tel" placeholder="电话号码" name="tel"><br>
+					</li>
+					<li>
+						<label for="email">E-mail:</label>
+						<input type="text" id="email" name="email"/>
+					</li>
+					<li>
+						<button type="submit" id="submit" name="submit">提交</button>
+						<button type="reset" id="reset" name="reset">重置</button>
+					</li>
+					<li>
+						<input type="checkbox" id="checkbox"/>同意服务条款
+						<a href="#">先看看条款？</a>
+					</li>
+					<li>
+						<a href="#">*在您注册之前请先认真阅读服务条款.</a>
+						<a href="#">*在提交您的注册信息时, 我们认为您已经同意了我们的服务条款.</a>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div id="dis_service">
+			<div id="on_service">
+				<span>在线客服</span>
+				<span class="indent">&lt;&lt;</span>
+			</div>
+			<div id="in_service">
+				<div class="qq_service">
+					<span>QQ在线客服</span>
+					<span><a href="#">售前服务</a></span>
+					<span><a href="#">售后客服</a></span>
+					<span><a href="#">招商加盟</a></span>
+				</div>
+				<span class="write"><a href="#">在线留言</a></span>
+				<div class="call">
+					<span>电话咨询</span>
+					<span>400-0841-520</span>
+					<a href="../images/pic16.png">
+						<img src="../images/pic16.png" alt="二维码">
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<a href="" class="con"><img src="../images/pic11.png" alt="电话">400-180-911</a>
+			<a href="" class="con"><img src="../images/pic8.png" alt="">huali@sina.com</a>
+			<span class="time">工作时间：周一至周五 9:00-22:00</span>
+			<div class="news">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="#">实体店铺</a></li>
+					<li><a href="#">花里微博</a></li>
+					<li><a href="#">加入我们</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">花里girls</a></li>
+					<li><a href="#">招商加盟</a></li>
+					<li><a href="html/contact.html">关于我们</a></li>
+				</ul>
+				
+				<ul>
+					<li><a href="html/flowers.html">帮我选花</a></li>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+				<ul>
+					<li><a href="html/flowers.html">鲜花</a></li>
+					<li><a href="#">配送信息</a></li>
+					<li><a href="#">联系客服</a></li>
+				</ul>
+				<ul>
+					<li><a href="html/flowers.html">永生花</a></li>
+					<li><a href="#">商务合作</a></li>
+					<li><a href="#">合作案例</a></li>
+				</ul>
+			</div>
+			<span>Copyright 2016-2016. All rights reserved. 花里花店</span>
+		</div>
+	</div>
+</body>
+</html>

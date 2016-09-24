@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>flowers_details</title>
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/flowers_details.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/same_style.css"/>
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/flowers_details.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/same_js.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<a href="index.html">
+					<img src="../images/logo.png" alt="">
+				</a>
+				<div class="cart">
+					<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					<span>|</span>
+					<a href="contact.html">登陆</a>
+				</div>
+				<form>
+					<input type="text" placeholder="请输入商品的名称" id="text">
+					<input type="button" value="搜索" class="button">
+				</form>
+			</div>
+			<div id="nav">
+				<span><i class="fa fa-bars"></i></span>
+				<ul>
+					<li><a href="../index.html">首&#12288;&#12288;页</a></li>
+					<li><a href="company.html">公司简介</a></li>
+					<li class="active"><a href="flowers.html">帮我选花</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="top">
+				<div id="flProitem">
+					<div class="flProitem">
+						<a href="../images/flowers_1.JPG">
+							<img src="../images/flowers_1.JPG" title="魂牵梦萦" id="bigimg"/>
+						</a>
+					</div>
+					<ul id="imgList">
+						<li><a href="../images/flowers_1.JPG"><img src="../images/flowers_1.JPG"/></a></li>
+						<li><a href="../images/flowers_2.JPG"><img src="../images/flowers_2.JPG"/></a></li>
+						<li><a href="../images/flowers_3.JPG"><img src="../images/flowers_3.JPG"/></a></li>
+						<li><a href="../images/flowers_4.JPG"><img src="../images/flowers_4.JPG"/></a></li>
+					</ul>
+					<div id="large"></div>
+					<!--<div id="move"></div>-->
+				</div><!--商品信息 end-->
+				
+				
+				<div id="flDetails">
+					<h4>魂牵梦萦-大  【七夕礼盒】</h4>
+					<ul class="flDetailsList" id="productid">
+						<li class="freight">免运费</li>
+						<li class="other">价格：&#12288;&#12288;500~899</li>
+						<li class="other">颜色：&#12288;&#12288;粉</li>
+						<li class="other">类型：&#12288;&#12288;花盒/礼盒</li>
+						<li class="other">材质：&#12288;&#12288;鲜花</li>
+						<li class="price">
+							<span>现&#12288;&#12288;价：</span>
+							<strong>￥599.00元</strong>
+						</li>
+						<li class="num">
+							<span>数&#12288;&#12288;量：</span>
+							<div class="pro_num">
+								<select id="num_sort">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</div>
+						</li>
+						<li class="pro_price">
+							<span>总&#12288;&#12288;计：</span>
+	   						<strong>599</strong>元
+	   					</li>
+					</ul>
+					<div class="pro_rating">
+						给商品评分：
+						<ul class="rating nostar">
+							<li class="one"><a title="1分" href="#">1</a></li>
+							<li class="two"><a title="2分" href="#">2</a></li>
+							<li class="three"><a title="3分" href="#">3</a></li>
+							<li class="four"><a title="4分" href="#">4</a></li>
+							<li class="five"><a title="5分" href="#">5</a></li>
+						</ul>
+					</div>
+					<div class="pur">
+						<a href="javascript:addCart(<?php echo $data['id']?>);" id="cart"><i class="fa fa-shopping-cart">加入购物车</i></a><a href="#" id="now">立即购买</a>
+					</div>
+					<div id="num">
+						<!--<a href="#" class="con"><img src="../images/pic11.png" alt="电话">400-180-911</a>-->
+						<!--<a href="" class="con"><img src="../images/pic8.png" alt="">huali@sina.com</a>-->
+					</div>
+					
+				</div>  <!--end of #flDetails-->
+			</div> <!--end of #top-->
+			<div id="tabList">
+				<ul id='tab'>
+					<li class='cur'>产品详情</li>
+					<li>用材介绍</li>
+					<li>运输说明</li>
+				</ul>
+				<div id='tab_content'>
+					<div class="content init">
+						<p>七夕将至，遥望银河的牛郎织女终能得以鹊桥相汇。<br>白色玉簪，寓意守望相恋的爱人。粉色玫瑰，犹如为情人间搭起的鹊桥。
+							情高意真,眉长鬓青。思君忆君,魂牵梦萦。<br>而我对你的牵挂，亦无时无刻在心里浮现萦绕，挥之不去。</p>
+					</div>
+					<div class="content">
+						<p>粉色迷雾泡泡玫瑰，绣球，夕雾，白玉簪，桑露，小雏菊</p>
+					</div>
+					<div class="content">
+						<p>周末及法定节假日店休不发货。<br>
+						本商品仅配送上海市外环以内地区，具体送达时间以实际物流为准，如需更改时间请提前至少一个工作日哦。<br>
+						在您完成支付后，您可以登录后台查看订单以及物流状态，也会接收到短信提示。</p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="dis_service">
+			<div id="on_service">
+				<span>在线客服</span>
+				<span class="indent">&lt;&lt;</span>
+			</div>
+			<div id="in_service">
+				<div class="qq_service">
+					<span>QQ在线客服</span>
+					<span><a href="#">售前服务</a></span>
+					<span><a href="#">售后客服</a></span>
+					<span><a href="#">招商加盟</a></span>
+				</div>
+				<span class="write"><a href="#">在线留言</a></span>
+				<div class="call">
+					<span>电话咨询</span>
+					<span>400-0841-520</span>
+					<a href="../images/pic16.png">
+						<img src="../images/pic16.png" alt="二维码">
+					</a>
+					
+				</div>
+			</div>
+		</div>
+			<div id="footer">
+				<a href="" class="con"><img src="../images/pic11.png" alt="电话">400-180-911</a>
+				<a href="" class="con"><img src="../images/pic8.png" alt="">huali@sina.com</a>
+				<span class="time">工作时间：周一至周五 9:00-22:00</span>
+				<div class="news">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="#">实体店铺</a></li>
+						<li><a href="#">花里微博</a></li>
+						<li><a href="#">加入我们</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">花里girls</a></li>
+						<li><a href="#">招商加盟</a></li>
+						<li><a href="html/contact.html">关于我们</a></li>
+					</ul>
+					
+					<ul>
+						<li><a href="html/flowers.html">帮我选花</a></li>
+						<li><a href="#">版权声明</a></li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+					<ul>
+						<li><a href="html/flowers.html">鲜花</a></li>
+						<li><a href="#">配送信息</a></li>
+						<li><a href="#">联系客服</a></li>
+					</ul>
+					<ul>
+						<li><a href="html/flowers.html">永生花</a></li>
+						<li><a href="#">商务合作</a></li>
+						<li><a href="#">合作案例</a></li>
+					</ul>
+				</div>
+				<span>Copyright 2016-2016. All rights reserved. 花里花店</span>
+			</div>
+		</div>
+	</body>
+</html>

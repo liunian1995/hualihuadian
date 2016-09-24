@@ -1,0 +1,32 @@
+#content{height:1456px;width:82%;margin:0 auto;margin-top:5%;background:url(../images/new_details_bg.png) no-repeat;box-shadow:0 0 30px #000;background-color:#FFFFFF;}
+#content span.titles{display:inline-block;text-align:center;padding-top:10%;padding-left:40%;color:#999;}
+#content span mark{font-size:1.4rem;background-color:transparent;font-weight:bolder;color:#333;}
+#content .activity {padding-left:50%;}
+#content .activity h3{padding-top:5%;padding-bottom:5%;}
+h3{color:deepskyblue;}
+#content .activity span{display:block;text-align:center;padding-bottom:10%;position:relative;}
+#content .activity a{display:block;width:25%;margin-top:10%;margin-left:30%;}
+#content .activity a img{width:100%;}
+#content .activity div{border-top:1px solid #000;width:width:90%;margin-right:10%;}
+
+#content .com{padding-left:40%;text-align:center;}
+#content .com h3{padding-top:10%;}
+#content .com span{display:block;position:relative;}
+#content .com div{border-bottom:1px solid #000;width:width:110%;margin-right:5%;padding-top:9%;}
+
+
+#content .how{padding-left:40%;text-align:center;}
+#content .how h3{padding-top:10%;padding-bottom:10%;}
+#content span.pro{display:block;padding-bottom:3%;}
+#content span.next{display:inline-block;transform:rotate(-90deg);font-size:50px;padding-top:5%;margin-right:8%;}
+
+#tips{padding-top:5%;width:82%;font-size:0.8rem;margin:0 auto;}
+#tips span{color:#ccc;display:block;}
+
+#footer{margin-top:5.4%;}
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#content{font-size:0.7rem;}
+	#content .activity h3{padding-top:10%;padding-bottom:10%;}
+	#content .how h3{padding-top:30%;}
+}
