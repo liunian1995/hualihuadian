@@ -27,7 +27,7 @@
 #content a:hover::after{opacity:1;}
 #content a:hover img{background:black;opacity: 0.3;transform:scale(0.9)}
 #content a:hover span{opacity:1;}
-#content a span{position:absolute;top:30%;left:30%;color:saddlebrown;opacity:0;font-size:1.2rem;font-weight:bolder;}
+#content a span{position:absolute;top:30%;left:30%;color:saddlebrown;opacity:0;font-size:1.2em;font-weight:bolder;}
 @keyframes show{
 	from{height:0%;}
 	to{height:80%;}
@@ -43,4 +43,5 @@
 	#content a:nth-child(1),#content a:nth-child(2),#content a:nth-child(3){margin-right:-10px;}
 	#content a::after{width:70%;}
 	#content a::before{left:15%;}
+	#content a span{font-size:0.8em;}
 }

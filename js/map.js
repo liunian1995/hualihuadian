@@ -67,8 +67,9 @@ function maps(){
 //  click();
 }
 window.onload=function(){
-	maps();
+//	maps();
     on_service();
     check();
     nav();
+    cart_drag();
 };

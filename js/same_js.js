@@ -37,23 +37,42 @@ function fnDown(event){
 	//光标按下时光标和面板之间的距离
 	var disX=event.clientX-aCart.offsetLeft,
 		disY=event.clientY-aCart.offsetTop;
-		//移动
+	//移动
 	document.onmousemove=function(event){
 		event=event || window.event;
 		fnMove(event,disX,disY);
+	//释放
+	document.onmouseup=function(){
+		document.onmousemove=null;
+		document.mouseuop=null;
+	};
 	}
 }
 function fnMove(e,posX,posY){
 	var aCart=document.getElementById("cart");
 	var l=e.clientX-posX,
-		t=e.clientY-posY;
+		t=e.clientY-posY,
+		winW=document.documentElement.clientWidth || document.body.clientWidth,
+		winH=document.documentElement.clientHeight || document.body.clientHeight,
+		maxW=winW-aCart.offsetWidth,
+		maxH=winH-aCart.offsetHeight;
+	//判断如果出界则强制不出去
+	if(l<0){
+		l=0;
+	}else if(l>=maxW){
+		l=maxW;
+	}
+	if(t<0){
+		t=0;
+	}
+//	else if(t>maxH){
+//		t=maxH;
+//	}
+	
 	aCart.style.left=l+"px";
 	aCart.style.top=t+"px";
 }
 
-function getByClass(clsName,parent){
-	var oCart=document.getElementById("cart");
-	
-	
-}
+
+
 

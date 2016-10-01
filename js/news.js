@@ -61,4 +61,5 @@ window.onload=function(){
 	zan();
 	scroll();
 	nav();
+	cart_drag();
 };

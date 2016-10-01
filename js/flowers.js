@@ -48,4 +48,5 @@ window.onload=function(){
 //	change_flow();
 	on_service();
 	nav();
+	cart_drag();
 };

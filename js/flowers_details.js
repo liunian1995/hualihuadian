@@ -75,25 +75,7 @@ function Img(){
 	};
 	
 }
-function addCart(productid){
-	var cart=document.getElementById("cart");
-	cart.onclick=function(){
-//		$ajax({
-////			url:'addCart.php',
-////			dataType:'json',
-////			data:''
-////			success:function(data){
-////				
-////			}
-////		});
-		var url="C:/wamp/www/blog/addCart.php";
-		var data={"productid":productid,"num":parseInt($("#num_sort").val())};
-		var success=function(reponse){
-		$post(url,data,success,"json");
-		};
-//		
-	};
-}
+
 window.onload=function(){
 	prices();
 	starts();
@@ -101,4 +83,5 @@ window.onload=function(){
 	Img();
 	on_service();
 	nav();
+	cart_drag();
 };
